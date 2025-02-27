@@ -1,0 +1,31 @@
+/* Estilos para el contenedor del encabezado */
+.header {
+    display: flex; /* Utiliza un contenedor flexible para los elementos hijos */
+    justify-content: space-between; /* Distribuye el espacio sobrante entre los elementos hijos */
+    align-items: center; /* Alinea los elementos hijos verticalmente en el centro */
+    padding: 20px; /* Añade un relleno de 20px alrededor del contenedor */
+    background-color: #333; /* Establece el color de fondo del contenedor a un gris oscuro */
+    color: #fff; /* Establece el color del texto a blanco */
+}
+
+/* Estilos para la lista de navegación */
+.nav ul {
+    list-style: none; /* Elimina los estilos de lista por defecto */
+    display: flex; /* Utiliza un contenedor flexible para los elementos hijos */
+}
+
+/* Estilos para los elementos de la lista de navegación */
+.nav li {
+    margin: 0 15px; /* Añade un margen de 15px a la izquierda y derecha de cada elemento de la lista */
+}
+
+/* Estilos para los enlaces de navegación */
+.nav a {
+    color: #fff; /* Establece el color del texto a blanco */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Estilos para el logo */
+.logo h1 { 
+    margin: 0; /* Elimina el margen por defecto del encabezado h1 */
+}

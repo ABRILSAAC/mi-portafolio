@@ -1,0 +1,11 @@
+/* Contenedor para la sección sobre mí */
+.about { 
+    padding: 50px 20px; /* Relleno de 50px arriba y abajo, 20px a la izquierda y derecha */
+    background-color: #f4f4f4; /* Color de fondo gris claro */
+    text-align: center; /* Alinear texto al centro */
+}
+
+/* Estilo para elementos h2 dentro de la sección sobre mí */
+.about h2 { 
+    margin-bottom: 20px; /* Margen de 20px en la parte inferior */
+}

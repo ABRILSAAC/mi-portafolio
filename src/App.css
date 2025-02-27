@@ -1,38 +1,51 @@
 .App {
-  text-align: center;
+  font-family: 'Arial', sans-serif; /* Define la fuente de la aplicación como Arial, con una fuente de respaldo sans-serif */
+  margin: 0; /* Elimina el margen predeterminado */
+  padding: 0; /* Elimina el relleno predeterminado */
+}
+
+main { 
+  min-height: 80vh; /* Define una altura mínima del 80% de la altura de la ventana gráfica */
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40vmin; /* Define la altura del logo como el 40% de la menor dimensión de la ventana gráfica (ancho o alto) */
+  pointer-events: none; /* Desactiva los eventos del puntero en el logo */
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; /* Aplica una animación de rotación infinita de 20 segundos al logo si no se prefiere la reducción de movimiento */
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #282c34; /* Define el color de fondo del encabezado de la aplicación */
+  min-height: 100vh; /* Define una altura mínima del 100% de la altura de la ventana gráfica */
+  display: flex; /* Utiliza el modelo de caja flexible */
+  flex-direction: column; /* Organiza los elementos hijos en una columna */
+  align-items: center; /* Centra los elementos hijos horizontalmente */
+  justify-content: center; /* Centra los elementos hijos verticalmente */
+  font-size: calc(10px + 2vmin); /* Define el tamaño de la fuente en función del tamaño de la ventana gráfica */
+  color: white; /* Define el color del texto como blanco */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Define el color de los enlaces como un tono de azul */
 }
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Define el estado inicial de la animación con una rotación de 0 grados */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Define el estado final de la animación con una rotación de 360 grados */
   }
+}
+
+.footer { 
+  padding: 20px; /* Agrega un relleno de 20 píxeles alrededor del contenido del pie de página */
+  text-align: center; /* Centra el texto del pie de página */
+  background-color: #333; /* Define el color de fondo del pie de página como un tono oscuro de gris */
+  color: #fff; /* Define el color del texto del pie de página como blanco */
 }

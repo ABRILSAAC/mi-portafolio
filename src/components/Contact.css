@@ -1,0 +1,23 @@
+/* Estilo para el contenedor de contacto */
+.contact { 
+    padding: 50px 20px; /* Espaciado interno de 50px arriba y abajo, 20px a los lados */
+    background-color: #f4f4f4; /* Color de fondo gris claro */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilo para la lista dentro del contenedor de contacto */
+.contact ul { 
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el espaciado interno de la lista */
+}
+
+/* Estilo para los elementos de la lista dentro del contenedor de contacto */
+.contact li { 
+    margin: 10px 0; /* Margen de 10px arriba y abajo */
+}
+
+/* Estilo para los enlaces dentro del contenedor de contacto */
+.contact a { 
+    color: #333; /* Color del texto de los enlaces en gris oscuro */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}

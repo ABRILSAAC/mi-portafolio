@@ -1,0 +1,32 @@
+/* Contenedor principal de los proyectos */
+.projects { 
+    padding: 50px 20px; /* Espaciado interno de 50px arriba y abajo, 20px a los lados */
+    background-color: #fff; /* Color de fondo blanco */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Contenedor de las tarjetas de proyectos */
+.projects-container { 
+    display: flex; /* Utiliza flexbox para el diseño */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+/* Tarjeta individual de cada proyecto */
+.project-card { 
+    background: #eee; /* Color de fondo gris claro */
+    padding: 20px; /* Espaciado interno de 20px */
+    margin: 10px; /* Espaciado externo de 10px */
+    width: 280px; /* Ancho fijo de 280px */
+    border-radius: 5px; /* Bordes redondeados de 5px */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra ligera alrededor de la tarjeta */
+}
+
+/* Estilo para los enlaces dentro de las tarjetas de proyectos */
+.project-card a { 
+    display: inline-block; /* Muestra el enlace como un bloque en línea */
+    margin-top: 10px; /* Margen superior de 10px */
+    color: #333; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado en el texto del enlace */
+    font-weight: bold; /* Texto en negrita */
+}
